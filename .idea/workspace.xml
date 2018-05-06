@@ -28,24 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="baseof.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/kube/layouts/_default/baseof.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="80" column="92" selection-start-line="80" selection-start-column="92" selection-end-line="80" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/kube/layouts/_default/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/kube/layouts/_default/single.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/kube/layouts/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -78,11 +60,57 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="create-a-wallet.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/docs/create-a-wallet.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="225">
+                <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="making-a-payment.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/docs/making-a-payment.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="389">
+                <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/example/example.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/kube/layouts/section/example.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <element signature="e#636#640#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="api.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/docs/api.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-466">
+              <first_editor relative-caret-position="15">
                 <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               </first_editor>
               <second_editor />
@@ -102,31 +130,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/example/example.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toneco-widget.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/kube/static/js/toneco-widget.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10062">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="react-integration.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/docs/react-integration.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+              <first_editor relative-caret-position="720">
+                <caret line="48" column="13" lean-forward="true" selection-end-line="80" />
               </first_editor>
               <second_editor />
             </state>
@@ -177,6 +186,8 @@
         <option value="$PROJECT_DIR$/content/docs/react-integration.md" />
         <option value="$PROJECT_DIR$/content/docs/static-site.md" />
         <option value="$PROJECT_DIR$/themes/kube/layouts/index.html" />
+        <option value="$PROJECT_DIR$/content/docs/create-a-wallet.md" />
+        <option value="$PROJECT_DIR$/content/docs/making-a-payment.md" />
       </list>
     </option>
   </component>
@@ -355,12 +366,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525565772484</updated>
-      <workItem from="1525565774153" duration="14639000" />
+      <workItem from="1525565774153" duration="16009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14639000" />
+    <option name="totallyTimeSpent" value="16009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
@@ -527,50 +538,10 @@
     <entry file="file://$PROJECT_DIR$/themes/kube/layouts/example/single.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/kube/layouts/section/example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding>
-            <element signature="e#257#261#0" expanded="true" />
-            <element signature="e#712#716#0" expanded="true" />
-            <element signature="e#636#640#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/kube/static/js/toneco-widget.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-10062">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/docs/api.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-466">
-            <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/example/example.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/docs/react-integration.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -621,6 +592,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/docs/react-integration.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="720">
+            <caret line="48" column="13" lean-forward="true" selection-end-line="80" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/docs/api.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/example/example.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/kube/layouts/section/example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#636#640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/docs/create-a-wallet.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/docs/making-a-payment.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="389">
+            <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
