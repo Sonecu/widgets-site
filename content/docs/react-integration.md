@@ -1,6 +1,6 @@
 +++
-description = "Add some motion, shaking, pulsing, sliding and more"
-title = "React Integration (v.2.3.4)"
+description = "For sites built with the React framework"
+title = "React Integration (v.1.5.2)"
 date = "2017-04-10T16:43:08+01:00"
 draft = false
 weight = 200

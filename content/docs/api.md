@@ -55,6 +55,10 @@ idTarget `string` `required`
 
 The id of the DOM element you wish to convert into a widget.
 
+message `string` `required`
+
+Note for potential supporters.
+
 <br>
 <br>
 <br>

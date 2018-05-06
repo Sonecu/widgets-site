@@ -16,6 +16,10 @@ Paginate = 4
     weight = -100
     url = "/docs/"
 [[menu.main]]
+    name = "Example"
+    weight = -100
+    url = "/example/"
+[[menu.main]]
     name = "Showcase"
     weight = -100
     url = "/showcase/"
