@@ -1,5 +1,6 @@
-baseURL = "/"
+baseURL = "widgets.sonecu.org"
 languageCode = "en-us"
+publishDir = "docs"
 title = "Sonecu Widgets"
 description = "HELLL"
 theme = "kube"
