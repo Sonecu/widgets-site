@@ -14,15 +14,21 @@ toc = true
 
 ```
 <script type="text/javascript">
-    new AudioPlayer(
-      {
-        src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/355309/Swing_Jazz_Drum.mp3',
-        songName: 'Castillo en la niebla (2016)',
+  new AudioPlayer(
+    {
+        tracks: [
+            {
+                url: 'https://dl.dropbox.com/s/cv0gaegc6smd642/fantasia_tmp.mp3?dl=0',
+                name: 'castillo en la niebla'
+            }
+        ],
         by: 'Alexander Leon',
-        address: 'GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN',
+        walletAddress: 'GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN',
         memo: 'f',
-        idTarget: 'castillo'
-      })
+        albumName: 'Castillo en la niebla (2016)',
+        idTarget: 'castillo',
+        message: 'Thanks!'
+    }); 
 </script>
 <div id="castillo"></div> 
 ```
@@ -30,10 +36,10 @@ toc = true
 ## Core
 ### Options
 
-src `String` `required`
+tracks `Array {url: string, name: string}` `required`
 
-The source of the audio track to be loaded (URL or base64 data URI). 
-
+Array of tracks to be loaded (URL or base64 data URI).
+ 
 songName `string` `required`
 
 The song's name.
@@ -42,9 +48,9 @@ by `string` `required`
 
 The author of the song.
 
-address `string` `required`
+walletAddress `string` `required`
 
-The stellar _public_ address to which you'd like to receive funds.
+The stellar public address to which you'd like to receive funds. Commonly referred to as the _public key_.
 
 memo `string` `required`
 
@@ -57,7 +63,11 @@ The id of the DOM element you wish to convert into a widget.
 
 message `string` `required`
 
-Note for potential supporters.
+Message for potential supporters.
+
+useAlbumDisplay `boolean`
+
+Display the complete album track list. See the showcase for an example.
 
 <br>
 <br>

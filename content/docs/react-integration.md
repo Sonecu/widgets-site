@@ -4,13 +4,13 @@ title = "React Integration (v.1.5.2)"
 date = "2017-04-10T16:43:08+01:00"
 draft = false
 weight = 200
-bref="Let's add a Toneco widget to your React site"
+bref="Let's add a Sonecu widget to your React site"
 toc = true
 +++
 ## Let's roll
 Let's create and enter our project with the following command:
 
-```npx create-react-app toneco-widget-example && cd toneco-widget-example && yarn start```
+```npx create-react-app sonecu-widget-example && cd sonecu-widget-example && yarn start```
 
 Hey, you're halfway there!
 
@@ -25,39 +25,60 @@ Go to the `/public/index.html` folder and add these CDN scripts above `<title>Re
 
 Using the terminal, let's install the node package:
 ```
-npm install toneco-audio-widget
+npm install sonecu-audio-widget
 ```
 (TODO: Add to NPM repo)
 
 Now in `/src/App.js`, let's import the audio player:
 ```
-import { AudioPlayer } from 'toneco-audio-widget';
+import { AudioPlayer } from 'sonecu-audio-widget';
 ```
 
 Inside the `componentDidMount` lifecycle hook, let's load up our track info:
 
 ```
 componentDidMount() {
-           new AudioPlayer(
-               {
-                   src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/355309/Swing_Jazz_Drum.mp3',
-                   songName: 'Castillo en la niebla (2016)',
-                   by: 'Alexander Leon',
-                   address: 'GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN',
-                   memo: 'f',
-                   isClassical: true,
-                   idTarget: 'dawg'
-               })
-           new AudioPlayer(
-               {
-                   src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/355309/Swing_Jazz_Drum.mp3',
-                   songName: 'Castillo en la niebla (2016)',
-                   by: 'Alexander Lebron',
-                   address: 'GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN',
-                   memo: 'f',
-                   isClassical: true,
-                   idTarget: 'hello'
-               })
+          new AudioPlayer(
+              {
+                  tracks: [
+                      {
+                          url: 'https://dl.dropbox.com/s/cv0gaegc6smd642/fantasia_TMP.mp3?dl=0',
+                          name: 'Fantasia'
+                      },
+                      {
+                          url: 'https://dl.dropbox.com/s/qf1l478n8awdapu/pavilions.mp3?dl=0',
+                          name: 'Pavilions'
+                      }
+                  ],
+                  by: 'Alexander Leon',
+                  walletAddress: 'GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN',
+                  memo: 'f',
+                  idTarget: 'hello',
+                  albumName: 'Castillo en la niebla (2016)',
+                  message: 'Thanks!'
+              });
+          
+          new AudioPlayer(
+              {
+                  tracks: [
+                      {
+                          url: 'https://dl.dropbox.com/s/cv0gaegc6smd642/fantasia_tmp.mp3?dl=0',
+                          name: 'castillo en la niebla'
+                      },
+                      {
+                          url: 'https://dl.dropbox.com/s/qf1l478n8awdapu/pavilions.mp3?dl=0',
+                          name: 'dawggss'
+                      }
+                  ],
+                  useAlbumDisplay: true,
+                  by: 'Alexander Leon',
+                  walletAddress: 'GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN',
+                  memo: 'f',
+                  albumName: 'Castillo en la niebla (2016)',
+                  idTarget: 'dawg',
+                  message: 'Thanks!'
+              });
+ 
        }
 ```
 

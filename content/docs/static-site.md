@@ -27,7 +27,7 @@ Next, let's set up the basic file structure. You probably already have so just s
 
 <html>
 <head>
-    <title>Hello Toneco Widget</title> 
+    <title>Hello Sonecu Widget</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 
@@ -45,33 +45,34 @@ Let's add some CDN scripts to the `head`:
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquerykeyframes@0.0.10/jquery.keyframes.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/0.8.0/stellar-sdk.min.js"></script>
+    <script src="https://alien35.keybase.pub/widget.core.js"></script>
 ```
 
-Next you're going to need the widget code. I recommend creating a new `js` file in the root path, say `toneco-widget.js` and call it from the `index.html` file like so:
->
-```
-<script src="toneco-widget.js"></script>
+After the CDN scripts, add the following:
 
 ```
-
-In this new empty file, copy-paste all the code from here:
-https://raw.githubusercontent.com/Toneco/Widget/master/src/widget.core.js
-
-Next, add a script tag and let's call our first AudioPlayer object.
-
-```
-<script>
-    new AudioPlayer(
-        {
-            src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/355309/Swing_Jazz_Drum.mp3',
-            songName: 'Castillo en la niebla (2016)',
-            by: 'Alexander Leon',
-            address: 'GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN',
-            memo: 'f',
-            isClassical: true,
-            idTarget: 'dawg'
-        })
-</script>
+<script type="text/javascript">
+new AudioPlayer(
+  {
+      tracks: [
+          {
+              url: 'https://dl.dropbox.com/s/cv0gaegc6smd642/fantasia_tmp.mp3?dl=0',
+              name: 'castillo en la niebla'
+          },
+          {
+              url: 'https://dl.dropbox.com/s/qf1l478n8awdapu/pavilions.mp3?dl=0',
+              name: 'dawggss'
+          }
+      ],
+      useAlbumDisplay: true,
+      by: 'Alexander Leon',
+      walletAddress: 'GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN',
+      memo: 'f',
+      albumName: 'Castillo en la niebla (2016)',
+      idTarget: 'dawg',
+      message: 'Thanks!'
+  });
+</script>  
 ```
 
 Finally, let's place our widget in the DOM. Inside `body` add:

@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Toneco Widgets"
+title = "Sonecu Widgets"
 description = "HELLL"
 theme = "kube"
 Paginate = 4
@@ -16,10 +16,10 @@ Paginate = 4
     weight = -100
     url = "/docs/"
 [[menu.main]]
-    name = "Example"
+    name = "Examples"
     weight = -100
-    url = "/example/"
+    url = "/examples/"
 [[menu.main]]
-    name = "Showcase"
+    name = "Community"
     weight = -100
-    url = "/showcase/"
+    url = "/community/"
