@@ -11,10 +11,6 @@ dependencies:
   cache_directories:
     - bin
 
-test:
-  override:
-    - hugo -v
-
 deployment:
   s3deploy:
     branch: master

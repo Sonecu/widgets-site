@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>widgets.sonecu.org/examples/album/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/docs/api/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/docs/cdn/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/docs/create-a-wallet/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/community/test/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/examples/default/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/docs/making-a-payment/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/docs/react-integration/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/docs/static-site/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/community/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/docs/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/examples/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>widgets.sonecu.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

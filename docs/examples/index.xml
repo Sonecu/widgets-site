@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Examples on Sonecu Widgets</title>
+    <link>widgets.sonecu.org/examples/</link>
+    <description>Recent content in Examples on Sonecu Widgets</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Apr 2017 16:43:08 +0100</lastBuildDate>
+    
+	<atom:link href="widgets.sonecu.org/examples/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Album Audio Player</title>
+      <link>widgets.sonecu.org/examples/album/</link>
+      <pubDate>Mon, 10 Apr 2017 16:43:08 +0100</pubDate>
+      
+      <guid>widgets.sonecu.org/examples/album/</guid>
+      <description>Code: new AudioPlayer( { tracks: [ { url: &#39;https://dl.dropbox.com/s/8as0zghuk4266kn/dos_puertas%20%281%29.wav?dl=0&#39;, name: &#39;Dos Puertas&#39; }, { url: &#39;https://dl.dropbox.com/s/qf1l478n8awdapu/pavilions.mp3?dl=0&#39;, name: &#39;Pavilions&#39; } ], songName: &#39;Castillo en la niebla&#39;, by: &#39;Alexander Leon&#39;, walletAddress: &#39;GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN&#39;, memo: &#39;f&#39;, idTarget: &#39;castillo&#39;, useAlbumDisplay: true, albumName: &#39;Music from 2016&#39;, message: &#39;Thanks!&#39; });</description>
+    </item>
+    
+    <item>
+      <title>Default Audio Player</title>
+      <link>widgets.sonecu.org/examples/default/</link>
+      <pubDate>Mon, 10 Apr 2017 16:43:08 +0100</pubDate>
+      
+      <guid>widgets.sonecu.org/examples/default/</guid>
+      <description>Code: new AudioPlayer( { tracks: [ { url: &#39;https://dl.dropbox.com/s/8as0zghuk4266kn/dos_puertas%20%281%29.wav?dl=0&#39;, name: &#39;Dos Puertas&#39; }, { url: &#39;https://dl.dropbox.com/s/qf1l478n8awdapu/pavilions.mp3?dl=0&#39;, name: &#39;Pavilions&#39; } ], songName: &#39;Castillo en la niebla&#39;, by: &#39;Alexander Leon&#39;, walletAddress: &#39;GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN&#39;, memo: &#39;f&#39;, idTarget: &#39;dawg&#39;, albumName: &#39;Music from 2016&#39;, message: &#39;Thanks!&#39; });</description>
+    </item>
+    
+  </channel>
+</rss>

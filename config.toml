@@ -1,7 +1,7 @@
 baseURL = "widgets.sonecu.org"
 languageCode = "en-us"
 publishDir = "docs"
-title = "Sonecu Widgets"
+title = "Sonecu Widgetshuh"
 description = "HELLL"
 theme = "kube"
 Paginate = 4
