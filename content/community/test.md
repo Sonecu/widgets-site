@@ -28,8 +28,8 @@ new AudioPlayer(
           ],
           songName: 'Castillo en la niebla',
           by: 'Alexander Leon',
-          walletAddress: 'GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN',
-          memo: 'f',
+          walletAddress: 'GBPYRN3MMDTIS3CIKBTOAKJBZOTU5S577P3JF5T7H2EPWK4BKTZ6VDTL',
+          memo: 'music',
           idTarget: 'dawg',
           albumName: 'Music from 2016',
           message: 'Thanks!'

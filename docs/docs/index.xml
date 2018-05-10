@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Sonecu Widgets</title>
-    <link>widgets.sonecu.org/docs/</link>
+    <link>/docs/</link>
     <description>Recent content in Docs on Sonecu Widgets</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Apr 2017 16:43:08 +0100</lastBuildDate>
     
-	<atom:link href="widgets.sonecu.org/docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AudioPlayer Configuration</title>
-      <link>widgets.sonecu.org/docs/api/</link>
+      <link>/docs/api/</link>
       <pubDate>Mon, 10 Apr 2017 16:43:08 +0100</pubDate>
       
-      <guid>widgets.sonecu.org/docs/api/</guid>
-      <description>Examples Most basic example: &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt; new AudioPlayer( { tracks: [ { url: &#39;https://dl.dropbox.com/s/cv0gaegc6smd642/fantasia_tmp.mp3?dl=0&#39;, name: &#39;castillo en la niebla&#39; } ], by: &#39;Alexander Leon&#39;, walletAddress: &#39;GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN&#39;, memo: &#39;f&#39;, albumName: &#39;Castillo en la niebla (2016)&#39;, idTarget: &#39;castillo&#39;, message: &#39;Thanks!&#39; }); &amp;lt;/script&amp;gt; &amp;lt;div id=&amp;quot;castillo&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;  Core Options tracks Array {url: string, name: string} required
+      <guid>/docs/api/</guid>
+      <description>Examples Most basic example: &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt; new AudioPlayer( { tracks: [ { url: &#39;https://dl.dropbox.com/s/cv0gaegc6smd642/fantasia_tmp.mp3?dl=0&#39;, name: &#39;castillo en la niebla&#39; } ], by: &#39;Alexander Leon&#39;, walletAddress: &#39;GBPYRN3MMDTIS3CIKBTOAKJBZOTU5S577P3JF5T7H2EPWK4BKTZ6VDTL&#39;, memo: &#39;music&#39;, albumName: &#39;Castillo en la niebla (2016)&#39;, idTarget: &#39;castillo&#39;, message: &#39;Thanks!&#39; }); &amp;lt;/script&amp;gt; &amp;lt;div id=&amp;quot;castillo&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;  Core Options tracks Array {url: string, name: string} required
 Array of tracks to be loaded (URL or base64 data URI).
 songName string required
 The song&amp;rsquo;s name.</description>
@@ -25,29 +25,29 @@ The song&amp;rsquo;s name.</description>
     
     <item>
       <title>CDNs</title>
-      <link>widgets.sonecu.org/docs/cdn/</link>
+      <link>/docs/cdn/</link>
       <pubDate>Mon, 10 Apr 2017 16:43:08 +0100</pubDate>
       
-      <guid>widgets.sonecu.org/docs/cdn/</guid>
-      <description>CDNs &amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-1.12.4.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;https://code.jquery.com/ui/1.12.1/jquery-ui.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;https://cdn.jsdelivr.net/npm/jquerykeyframes@0.0.10/jquery.keyframes.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/0.8.0/stellar-sdk.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;https://alien35.keybase.pub/widget.core.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;  That last one is the one I&amp;rsquo;m serving myself. By using Keybase, the script served is verifiably mine. If you don&amp;rsquo;t trust it either though, feel free to copy-paste the source code.</description>
+      <guid>/docs/cdn/</guid>
+      <description>CDNs &amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-1.12.4.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;https://code.jquery.com/ui/1.12.1/jquery-ui.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;https://cdn.jsdelivr.net/npm/jquerykeyframes@0.0.10/jquery.keyframes.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/0.8.0/stellar-sdk.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;https://alien35.keybase.pub/sonecu-widgets/v1.0.5.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;  That last one is the one I&amp;rsquo;m serving myself. By using Keybase, the script served is verifiably mine. If you don&amp;rsquo;t trust it either though, feel free to copy-paste the source code.</description>
     </item>
     
     <item>
       <title>Create a stellar wallet</title>
-      <link>widgets.sonecu.org/docs/create-a-wallet/</link>
+      <link>/docs/create-a-wallet/</link>
       <pubDate>Mon, 10 Apr 2017 16:43:08 +0100</pubDate>
       
-      <guid>widgets.sonecu.org/docs/create-a-wallet/</guid>
+      <guid>/docs/create-a-wallet/</guid>
       <description>Do you want a mobile phone wallet? How about a desktop or web wallet one? The sky&amp;rsquo;s the limit, so why not head on over to the official curated list of wallets to get going:
 https://www.stellar.org/lumens/wallets/</description>
     </item>
     
     <item>
       <title>Making a payment</title>
-      <link>widgets.sonecu.org/docs/making-a-payment/</link>
+      <link>/docs/making-a-payment/</link>
       <pubDate>Mon, 10 Apr 2017 16:43:08 +0100</pubDate>
       
-      <guid>widgets.sonecu.org/docs/making-a-payment/</guid>
+      <guid>/docs/making-a-payment/</guid>
       <description>I&amp;rsquo;m assuming you have a stellar wallet. If not, go get one from the official curated list of options here: https://www.stellar.org/lumens/wallets/
 I&amp;rsquo;m going to keep this general since I don&amp;rsquo;t know what type of stellar wallet you have.
 Let&amp;rsquo;s look at a sample widget:
@@ -57,10 +57,10 @@ Click Support. See the Stellar Address and Memo? From your web wallet, start a t
     
     <item>
       <title>React Integration (v.1.5.2)</title>
-      <link>widgets.sonecu.org/docs/react-integration/</link>
+      <link>/docs/react-integration/</link>
       <pubDate>Mon, 10 Apr 2017 16:43:08 +0100</pubDate>
       
-      <guid>widgets.sonecu.org/docs/react-integration/</guid>
+      <guid>/docs/react-integration/</guid>
       <description>Let&amp;rsquo;s roll Let&amp;rsquo;s create and enter our project with the following command:
 npx create-react-app sonecu-widget-example &amp;amp;&amp;amp; cd sonecu-widget-example &amp;amp;&amp;amp; yarn start
 Hey, you&amp;rsquo;re halfway there!
@@ -72,10 +72,10 @@ Now in /src/App.js, let&amp;rsquo;s import the audio player:</description>
     
     <item>
       <title>Static Site Integration</title>
-      <link>widgets.sonecu.org/docs/static-site/</link>
+      <link>/docs/static-site/</link>
       <pubDate>Mon, 10 Apr 2017 16:43:08 +0100</pubDate>
       
-      <guid>widgets.sonecu.org/docs/static-site/</guid>
+      <guid>/docs/static-site/</guid>
       <description>Let&amp;rsquo;s roll Now I don&amp;rsquo;t know what your files look like, so I&amp;rsquo;m going to create some files from scratch. Hopefully it&amp;rsquo;ll give you enough insight to get going.
 Let&amp;rsquo;s start with an index.html file as an entry point.
 Run the following:

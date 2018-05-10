@@ -15,7 +15,7 @@ bref=""
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquerykeyframes@0.0.10/jquery.keyframes.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/0.8.0/stellar-sdk.min.js"></script>
-<script src="https://alien35.keybase.pub/widget.core.js"></script>
+<script src="https://alien35.keybase.pub/sonecu-widgets/v1.0.5.js"></script>
 ```
 
 That last one is the one I'm serving myself. By using Keybase, the script served is verifiably mine. If you don't trust

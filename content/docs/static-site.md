@@ -45,7 +45,7 @@ Let's add some CDN scripts to the `head`:
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquerykeyframes@0.0.10/jquery.keyframes.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/0.8.0/stellar-sdk.min.js"></script>
-    <script src="https://alien35.keybase.pub/widget.core.js"></script>
+    <script src="https://alien35.keybase.pub/sonecu-widgets/v1.0.5.js"></script>
 ```
 
 After the CDN scripts, add the following:
@@ -66,8 +66,8 @@ new AudioPlayer(
       ],
       useAlbumDisplay: true,
       by: 'Alexander Leon',
-      walletAddress: 'GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN',
-      memo: 'f',
+      walletAddress: 'GBPYRN3MMDTIS3CIKBTOAKJBZOTU5S577P3JF5T7H2EPWK4BKTZ6VDTL',
+      memo: 'music',
       albumName: 'Castillo en la niebla (2016)',
       idTarget: 'dawg',
       message: 'Thanks!'

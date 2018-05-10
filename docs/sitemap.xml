@@ -3,81 +3,81 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>widgets.sonecu.org/examples/album/</loc>
+    <loc>/examples/album/</loc>
     <lastmod>2017-04-10T16:43:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>widgets.sonecu.org/docs/api/</loc>
+    <loc>/docs/api/</loc>
     <lastmod>2017-04-10T16:43:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>widgets.sonecu.org/docs/cdn/</loc>
+    <loc>/docs/cdn/</loc>
     <lastmod>2017-04-10T16:43:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>widgets.sonecu.org/docs/create-a-wallet/</loc>
+    <loc>/docs/create-a-wallet/</loc>
     <lastmod>2017-04-10T16:43:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>widgets.sonecu.org/community/test/</loc>
+    <loc>/community/test/</loc>
     <lastmod>2017-04-10T16:43:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>widgets.sonecu.org/examples/default/</loc>
+    <loc>/examples/default/</loc>
     <lastmod>2017-04-10T16:43:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>widgets.sonecu.org/docs/making-a-payment/</loc>
+    <loc>/docs/making-a-payment/</loc>
     <lastmod>2017-04-10T16:43:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>widgets.sonecu.org/docs/react-integration/</loc>
+    <loc>/docs/react-integration/</loc>
     <lastmod>2017-04-10T16:43:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>widgets.sonecu.org/docs/static-site/</loc>
+    <loc>/docs/static-site/</loc>
     <lastmod>2017-04-10T16:43:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>widgets.sonecu.org/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>widgets.sonecu.org/community/</loc>
-    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>widgets.sonecu.org/docs/</loc>
+    <loc>/community/</loc>
     <lastmod>2017-04-10T16:43:08+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>widgets.sonecu.org/examples/</loc>
+    <loc>/docs/</loc>
     <lastmod>2017-04-10T16:43:08+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>widgets.sonecu.org/</loc>
+    <loc>/examples/</loc>
     <lastmod>2017-04-10T16:43:08+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>widgets.sonecu.org/tags/</loc>
+    <loc>/</loc>
+    <lastmod>2017-04-10T16:43:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   

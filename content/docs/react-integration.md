@@ -51,8 +51,8 @@ componentDidMount() {
                       }
                   ],
                   by: 'Alexander Leon',
-                  walletAddress: 'GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN',
-                  memo: 'f',
+                  walletAddress: 'GBPYRN3MMDTIS3CIKBTOAKJBZOTU5S577P3JF5T7H2EPWK4BKTZ6VDTL',
+                  memo: 'music',
                   idTarget: 'hello',
                   albumName: 'Castillo en la niebla (2016)',
                   message: 'Thanks!'
@@ -72,8 +72,8 @@ componentDidMount() {
                   ],
                   useAlbumDisplay: true,
                   by: 'Alexander Leon',
-                  walletAddress: 'GA5JWS65L22GL5EJROI7NDRPJUPY4TFEKSRDPO2DKLA7MJXRJSTDNKRN',
-                  memo: 'f',
+                  walletAddress: 'GBPYRN3MMDTIS3CIKBTOAKJBZOTU5S577P3JF5T7H2EPWK4BKTZ6VDTL',
+                  memo: 'music',
                   albumName: 'Castillo en la niebla (2016)',
                   idTarget: 'dawg',
                   message: 'Thanks!'
